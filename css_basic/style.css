@@ -9,6 +9,16 @@ body {
 
 }
 
+h1, h2, h3 {
+    color: black;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+a {
+    color: green;
+}
+
+
 main {
     display: flex;
     flex-direction: row;
