@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./PlayfairDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'MyFont', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; 
+    height:60px;  
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease; 
+}
+
+.nav-menu li:hover {
+    color: red;
+   
+}
+
+
+body {
+    background: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Details {
+    text-align: center;
+    padding:300px;
+    font-size: 25px;
+    color: white;
+}
+
+button {
+    margin-top: 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(231, 75, 75);
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    box-shadow: 5px 9px 6px rgba(0, 0, 0, 0.5);
+}
+
+.Details span {
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.Details p {
+    text-align: center;
+    align-items: center;
+    padding: 90px;
+    width: 15px 15px;
+    text-justify: center;
+}
