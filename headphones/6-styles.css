@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./PlayfairDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; 
+    height:60px;  
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease; 
+}
+
+.nav-menu li a:hover {
+    color: red;
+   
+}
+
+
+body {
+    background: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'MyFont', sans-serif;
+    height: 100vh;
+    background-attachment: scroll;
+}
+
+.Details {
+    text-align: center;
+    padding:120px 20px;
+    font-size: 25px;
+    color: white;
+    margin-top: 200px;
+}
+
+button {
+    margin-top: 100px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(231, 75, 75);
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    box-shadow: 5px 9px 6px rgba(0, 0, 0, 0.5);
+}
+
+.Details span {
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.Details p {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    text-justify: center;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.whatwedo {
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    background-size: cover;
+    margin: -9px;
+    font-size: 28px;
+    margin-top: 400px;
+    max-height: 5000px;
+    
+}
+
+.whatwedo h2 {
+    color: black;
+    text-align: center;
+    
+}
+
+.whatwedo p {
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: black;
+}
+
+.iconstab {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 95px;
+    padding: 5px;
+}
+.iconstab p {
+    font-size: 33px;
+}
+
+.iconstab img {
+     width: 70px;
+}
+
+.ourresults .speak h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+    margin-top: 90px;
+    font-size: 60px;
+    
+}
+
+.ourresults {
+    padding: 95px;
+    background: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    margin: -10px;
+    font-size: 25px;
+}
+
+.pentagon {
+  width: 210px;
+  height: 210px;
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+  background: #ff6565; /* Your brand color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pentagon:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 30px rgba(0,0,0,0.45);
+}
+
+/* Grid container */
+.marks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.grid figcaption{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.speak p {
+    color: white;
+}
+.grid .top {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.grid .caption {
+  font-size: 16px;
+  color: rgba(255,255,255,0.9);
+}
+
+.grid p {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.contact-section {
+    text-align: center;
+    background-color: white;
+    padding: 100px;
+    margin: -10px;
+}
+
+.contact-section h2 {
+    font-size: 70px;
+}
+
+.form-group input {
+    font-size: 30px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    padding: 15px;
+
+}
+
+.form-group label {
+    color: black;
+}
+
+.form-group {
+    margin: 35px 0;
+}
+
+footer {
+  background: rgb(1, 10, 31);
+  color: rgba(255, 255, 255, 0.438);
+  padding: 50px 10px;
+  margin: -10px;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
+.footer-row p {
+    margin-top: 150px;
+}
+
+.footer-links a {
+    margin: 5px;
+}
+
+/* MOBILE VERSION: 480px AND BELOW */
+@media (max-width: 480px) {
+
+    body {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    /* HERO / DETAILS SECTION */
+    .Details {
+        padding: 80px 20px;
+        font-size: 18px;
+    }
+
+    .Details p {
+        max-width: 100%;
+        font-size: 20px;
+        padding: 0;
+    }
+
+    button {
+        margin-top: 40px;
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+
+    /* WHAT WE DO */
+    .iconstab {
+        flex-direction: column;
+        gap: 40px;
+        margin: 40px 0;
+    }
+
+    .iconstab p {
+        font-size: 20px;
+    }
+
+    /* OUR RESULTS */
+    .marks {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .grid img {
+        width: 150px;
+    }
+
+    .grid p .top {
+        font-size: 40px;
+    }
+
+    /* CONTACT FORM */
+    .contact-section {
+        padding: 50px 20px;
+    }
+
+    .contact-section h2 {
+        font-size: 40px;
+    }
+
+    .form-group input {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    .footer-row {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-row p {
+        margin-top: 0;
+    }
+}
